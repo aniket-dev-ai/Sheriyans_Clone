@@ -9,6 +9,7 @@ import BackEnd_Domination from './Courses.jsx/BackEnd_Domination.jsx';
 import FrontEnd_Domination from './Courses.jsx/FrontEnd_Domination.jsx';
 import Mastering_DSA from './Courses.jsx/Mastering_DSA.jsx';
 import Three_JS_Domination from './Courses.jsx/Three_JS_Domination.jsx';
+import SignIn from './Components/SignIn.jsx';
 
 export default function App() {
   const courseComponents = {
@@ -26,6 +27,7 @@ export default function App() {
         <Route path='/' element={<HomePage courses={courses} />} />
         <Route path='/courses' element={<CoursePage courses={courses} />} />
         <Route path='/kodr' element={<KodrPage />} />
+        <Route path='/Signin' element={<SignIn />} />
         {courses.map((course) => {
           const formatCourseName = (name) => {
             return name.replace(/\s+/g, '_');

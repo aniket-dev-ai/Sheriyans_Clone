@@ -1,6 +1,6 @@
 import React from "react";
 import Names from "../Components/Names";
-import video from "D:/Coding/React_Sher/routing/src/assets/Java & DSA Domination.mp4";
+import video from "D:/Coding/React_Sher/routing/Sheriyans/src/assets/Java & DSA Domination.mp4";
 
 function Mastering_DSA() {
   const syllabus = [
